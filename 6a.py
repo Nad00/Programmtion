@@ -20,9 +20,17 @@ Ecrire un algorithme qui déclare un tableau de 9 notes, dont on fait ensuite sa
 
 def tableNote():
 	note = []
+	s = 0
 	for i in range(9):
 		nb = int(input("Entrez les notes : "))
 		note.append(nb)
 	#print(note)
-	print(note[2])
+	#print(note[2])
+	for i in note :
+		somme = s +i
+	moyenne = somme/len(note)
+	print(moyenne)
+	print(len(note))		
 tableNote()
+
+
