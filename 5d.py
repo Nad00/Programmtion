@@ -20,3 +20,14 @@ def factoriel (nb):
 		s = s * i
 	return s
 #factoriel ()
+
+def tiercé ():
+	n = int(input("Nombre de chevaux partant :"))
+	p = int(input("Nombre de chevaux joué :"))
+	nF = factoriel (n)
+	pF = factoriel (p)
+	npF = factoriel (n - p)
+	X = nF/npF
+	Y = nF /(pF*npF)
+	print("Dans l'ordre : une chance sur", X, "de gagner. ""Dans le désordre : une chance sur", Y, "de gagner")
+tiercé ()
