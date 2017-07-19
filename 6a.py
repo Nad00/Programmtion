@@ -8,7 +8,7 @@ def remplissageTableau ():
 		i = 0
 		tab.append(i)
 	print(tab)
-remplissageTableau ()
+#remplissageTableau ()
 
 """	
 Ecrire un algorithme qui déclare et remplisse un tableau contenant les six voyelles de l’alphabet latin.		
@@ -31,6 +31,30 @@ def tableNote():
 	moyenne = somme/len(note)
 	print(moyenne)
 	print(len(note))		
-tableNote()
+#tableNote()
+
+"""
+Ecrivez un algorithme constituant un tableau, à partir de deux tableaux de même longueur préalablement saisis. Le nouveau tableau sera la somme des éléments des deux tableaux de départ.
+"""
+
+def additionTab (tab1, tab2):
+	tab3 = []
+	for i in range(len(tab1)):
+		for j in range(1):
+			nb = tab1[i] + tab2[i]
+			tab3.append(nb)
+	print(tab3)
+l = [1, 2, 3, 4 ]
+l2 = [5, 6, 7, 8]
+#l2 = [5, 6]
+#additionTab (l, l2) #ok
+"""
+
+"""
+
+
+
+
+
 
 
