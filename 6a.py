@@ -54,7 +54,7 @@ Toujours à partir de deux tableaux précédemment saisis, écrivez un algorithm
 3 * 4 + 3 * 8 + 3 * 7 + 3 * 12 + 6 * 4 + 6 * 8 + 6 * 7 + 6 * 12 = 279
 """
 
-def additionTab (tab1, tab2)
+def additionTab (tab1, tab2):
 	somme = 0
 	for i in range(len(tab1)):
 		for j in range(len(tab2)):
@@ -62,7 +62,7 @@ def additionTab (tab1, tab2)
 			somme = nb + somme
 	print(somme)
 
-#l2 = [4, 8, 7, 12]
-#l1 = [3, 6]
-#additionTab (l2, l1)
+l2 = [4, 8, 7, 12]
+l1 = [3, 6]
+additionTab (l2, l1)
 
