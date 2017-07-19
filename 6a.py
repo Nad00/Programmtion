@@ -5,9 +5,10 @@ Ecrire un algorithme qui déclare et remplisse un tableau de 7 valeurs numériqu
 def remplissageTableau ():
 	tab=[]
 	for i in range(7):
-		tab.append(0)
+		i = 0
+		tab.append(i)
 	print(tab)
-#remplissageTableau ()
+remplissageTableau ()
 
 """	
 Ecrire un algorithme qui déclare et remplisse un tableau contenant les six voyelles de l’alphabet latin.		
@@ -22,12 +23,11 @@ def tableNote():
 	note = []
 	s = 0
 	for i in range(9):
-		nb = int(input("Entrez les notes : "))
-		note.append(nb)
+		i = int(input("Entrez les notes : "))
+		note.append(i)
+		somme = s + i
 	#print(note)
 	#print(note[2])
-	for i in note :
-		somme = s +i
 	moyenne = somme/len(note)
 	print(moyenne)
 	print(len(note))		
