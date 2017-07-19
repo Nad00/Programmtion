@@ -48,13 +48,21 @@ l = [1, 2, 3, 4 ]
 l2 = [5, 6, 7, 8]
 #l2 = [5, 6]
 #additionTab (l, l2) #ok
-"""
 
 """
+Toujours à partir de deux tableaux précédemment saisis, écrivez un algorithme qui calcule le schtroumpf des deux tableaux. Pour calculer le schtroumpf, il faut multiplier chaque élément du tableau 1 par chaque élément du tableau 2, et additionner le tout. Par exemple si l'on a :
+3 * 4 + 3 * 8 + 3 * 7 + 3 * 12 + 6 * 4 + 6 * 8 + 6 * 7 + 6 * 12 = 279
+"""
 
+def additionTab (tab1, tab2)
+	somme = 0
+	for i in range(len(tab1)):
+		for j in range(len(tab2)):
+			nb = tab1[i] * tab2[j]
+			somme = nb + somme
+	print(somme)
 
-
-
-
-
+#l2 = [4, 8, 7, 12]
+#l1 = [3, 6]
+#additionTab (l2, l1)
 
