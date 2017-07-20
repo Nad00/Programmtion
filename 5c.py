@@ -103,21 +103,3 @@ Ecrire "Billets de  5 E : ", Nb5E
 Ecrire "Pièces de 1 E : ", reste
 Fin
 """
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
